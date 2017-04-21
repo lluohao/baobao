@@ -1,4 +1,3 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +12,7 @@
 
 	<body>
 		<div id="screen" class="center">
-			<form action="find" method="post" onsubmit="return find()">
+			<form action="login" method="post" onsubmit="return find()">
 				<input type="hidden" name="method" value="find" />
 				<input type="hidden" name="key" value="" id="key"/>
 				<div class="input-primay">
